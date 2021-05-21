@@ -1,0 +1,14 @@
+body {
+  height: 100%;
+  background: #000;
+}
+
+canvas {
+  width: 100%;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 360px) {
+  canvas {
+    height: 680px;
+  }
+}
